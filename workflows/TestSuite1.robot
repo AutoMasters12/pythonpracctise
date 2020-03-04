@@ -27,7 +27,7 @@ ${browser}    chrome
    Close Browser
    Close Browser
    
- google serach test2
+ google serach test3
     [Tags]    smoke    login    reg
    Launch Browser    ${url}    ${browser}
    Maximize Browser Window
