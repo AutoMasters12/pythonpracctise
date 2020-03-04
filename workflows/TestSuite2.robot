@@ -11,6 +11,7 @@ ${browser}    chrome
 
 
 *** Test Cases ***
+#test case1
  google serach test1
     [Tags]    smoke    login    reg
    Launch Browser    ${url}    ${browser}
@@ -24,7 +25,6 @@ ${browser}    chrome
    Click Element    //*[@id="ui-datepicker-div"]/div[1]/table/tbody/tr[4]/td[4]/a 
    Select From List By Index    Adults    3  
    Click Element    SearchBtn    
-   Close Browser
    Close Browser
    
  google serach test3
